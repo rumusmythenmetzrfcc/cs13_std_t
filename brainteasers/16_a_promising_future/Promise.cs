@@ -1,9 +1,8 @@
-﻿#nullable enable
-
-using System.Diagnostics;
+﻿using System.Diagnostics;
 
 async Task<string[]> SplitWordsAsync(string phrase)
 {
+#nullable enable
     // Use of null defaults to splitting on any whitespace character
     char[]? delimiters = null;
 
